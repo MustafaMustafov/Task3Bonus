@@ -46,6 +46,7 @@ public class Main {
     }
 
     public static void playGame() {
+        // new line like comment
         Scanner scan = new Scanner(System.in);
         char[][] matrix = {{'.', '.', '.'}, {'.', '.', '.'}, {'.', '.', '.'}};
         int a, b, br = 0, countO = 0, countX = 0;
